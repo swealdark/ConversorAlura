@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="540.0" style="-fx-background-color: #F8FBF5;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.HelloController">
+   <top>
+      <AnchorPane prefHeight="443.0" prefWidth="540.0" style="-fx-background-color: #F8FBF5;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="35.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONVERSOR ALURA" textAlignment="CENTER" wrappingWidth="87.591796875">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="23.0" fitWidth="15.0" layoutX="40.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../download/image%201.png" />
+               </image>
+            </ImageView>
+          <Button fx:id="longitud" layoutX="10.0" layoutY="117.0" mnemonicParsing="false" onAction="#longitud" prefHeight="29.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Longitud">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../download/SVGRepo_iconCarrier%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="50.0" />
+               </padding></Button>
+            <Button fx:id="divisas" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" onAction="#divisas" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Divisas">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../download/Vector.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="65.0" />
+               </padding></Button>
+            <Button fx:id="temperatura" layoutX="10.0" layoutY="288.0" mnemonicParsing="false" onAction="#temperatura" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Temperatura">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../download/SVGRepo_iconCarrier%20(2).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="30.0" />
+               </padding></Button>
+            <Button fx:id="peso" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" onAction="#peso" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Peso">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../download/SVGRepo_iconCarrier.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="72.0" />
+               </padding></Button>
+            <AnchorPane layoutX="160.0" layoutY="45.0" prefHeight="318.0" prefWidth="365.0" styleClass="displayContent" stylesheets="@styles.css">
+               <children>
+                  <Button fx:id="convert" layoutX="159.0" layoutY="191.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="52.0" styleClass="button-style3" stylesheets="@styles.css" />
+                  <TextField fx:id="displayInput" alignment="CENTER" layoutX="119.0" layoutY="55.0" prefHeight="44.0" prefWidth="128.0" promptText="0" styleClass="text-style1" stylesheets="@styles.css" />
+                  <TextField fx:id="displayOuput" alignment="CENTER" layoutX="119.0" layoutY="257.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="44.0" prefWidth="128.0" promptText="0" styleClass="text-style1" stylesheets="@styles.css" />
+                  <Label layoutX="179.0" layoutY="153.0" text="To" textFill="#cccccc" />
+                  <Label layoutX="165.0" layoutY="237.0" prefHeight="17.0" prefWidth="44.0" text="Convert" textFill="#acacac" />
+                  <ImageView fitHeight="11.0" fitWidth="29.0" layoutX="343.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../download/SVGRepo_iconCarrier%20(3).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="11.0" fitWidth="29.0" layoutX="98.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../download/SVGRepo_iconCarrier%20(3).png" />
+                     </image>
+                  </ImageView>
+                  <ComboBox id="deOption" fx:id="deOption" layoutX="8.0" layoutY="147.0" prefHeight="27.0" prefWidth="105.0" styleClass="button-style2" stylesheets="@styles.css" />
+                  <ComboBox layoutX="253.0" layoutY="147.0" prefHeight="27.0" prefWidth="105.0" styleClass="button-style2" stylesheets="@styles.css" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
