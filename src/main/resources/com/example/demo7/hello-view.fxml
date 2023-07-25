@@ -21,7 +21,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Text>
-          <Button fx:id="longitud" layoutX="10.0" layoutY="117.0" mnemonicParsing="false" onAction="#longitud" prefHeight="29.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Longitud">
+          <Button fx:id="longitud" layoutX="10.0" layoutY="117.0" mnemonicParsing="false" onAction="#longitud" prefHeight="29.0" prefWidth="140.0" style="-fx-border: none;" styleClass="button-style1" stylesheets="@styles.css" text="Longitud">
                <graphic>
                   <ImageView fitHeight="24.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -32,7 +32,7 @@
                <padding>
                   <Insets right="50.0" />
                </padding></Button>
-            <Button fx:id="divisas" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" onAction="#divisas" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Divisas">
+            <Button fx:id="divisas" layoutX="10.0" layoutY="199.0" mnemonicParsing="false" onAction="#divisas" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" styleClass="button-style1" stylesheets="@styles.css" text="Divisas">
                <graphic>
                   <ImageView fitHeight="17.0" fitWidth="9.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -43,7 +43,7 @@
                <padding>
                   <Insets right="65.0" />
                </padding></Button>
-            <Button fx:id="temperatura" layoutX="10.0" layoutY="288.0" mnemonicParsing="false" onAction="#temperatura" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Temperatura">
+            <Button fx:id="temperatura" layoutX="10.0" layoutY="288.0" mnemonicParsing="false" onAction="#temperatura" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" styleClass="button-style1" stylesheets="@styles.css" text="Temperatura">
                <graphic>
                   <ImageView fitHeight="33.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -54,7 +54,7 @@
                <padding>
                   <Insets right="30.0" />
                </padding></Button>
-            <Button fx:id="peso" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" onAction="#peso" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" stylesheets="@styles.css" text="Peso">
+            <Button fx:id="peso" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" onAction="#peso" prefHeight="27.0" prefWidth="140.0" style="-fx-border: none;" styleClass="button-style1" stylesheets="@styles.css" text="Peso">
                <graphic>
                   <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -91,6 +91,7 @@
                   <Image url="@../../../aluraLogo.png" />
                </image>
             </ImageView>
+            <Label text="\@angelll" textFill="#e1dbdb" />
          </children>
       </AnchorPane>
    </top>

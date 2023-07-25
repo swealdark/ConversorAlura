@@ -72,6 +72,8 @@ public class       HelloController {
         divisas.getStyleClass().remove("select");
         temperatura.getStyleClass().remove("select");
 
+        displayInput.clear();
+        displayOuput.clear();
 
 
 
@@ -108,7 +110,8 @@ public class       HelloController {
         peso.getStyleClass().remove("select");
         divisas.getStyleClass().remove("select");
         temperatura.getStyleClass().remove("select");
-
+        displayInput.clear();
+        displayOuput.clear();
 
         List<String> vals = Arrays.asList("Metro","Kilómetro","Centímetro","Milímetro","Pulgada","Pie","Yarda","Milla","Nanómetro","Micrómetro");
         deOption.getItems().clear();
@@ -142,6 +145,8 @@ public class       HelloController {
         longitud.getStyleClass().remove("select");
         peso.getStyleClass().remove("select");
         temperatura.getStyleClass().remove("select");
+        displayInput.clear();
+        displayOuput.clear();
 
         /*Update display*/
 
@@ -178,6 +183,8 @@ public class       HelloController {
         longitud.getStyleClass().remove("select");
         divisas.getStyleClass().remove("select");
         peso.getStyleClass().remove("select");
+        displayInput.clear();
+        displayOuput.clear();
 
 
 
