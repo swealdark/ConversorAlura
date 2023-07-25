@@ -6,10 +6,10 @@
     -fx-border-color: transparent;
 }
 
-.button:hover {
+.button-style1:hover {
     -fx-background-color: #D5F16D;
 }
-.button:pressed {
+.button-style1:pressed {
     -fx-background-color: #C9E953;
 }
 .button-style2 {
@@ -27,6 +27,9 @@
     -fx-background-image: url("./Capa_1.png");
     -fx-background-repeat: no-repeat;
     -fx-background-size: 50px;
+}
+.button-style3:pressed {
+    -fx-background-image: url("./img-src/Capa1Hover.png");
 }
 .text-style1{
     -fx-background-color: #000;
